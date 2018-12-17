@@ -2,3 +2,92 @@
 	padding: 0;
 	margin: 0;
 }
+
+body {
+	width: 855px;
+	margin: auto;
+	font-size: 100%;
+	font-family: sans-serif;
+	background: ivory;
+}
+
+header {
+	border-bottom: 1px solid darkslategray;
+	overflow: auto;
+}
+
+header h1 {
+	width: 285px;
+	float: left;
+}
+
+header p {
+	float: right;
+	width: 570px;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+main {
+	overflow:auto;
+	padding: 30px 0;
+	border-bottom: 1px solid darkslategray;
+}
+
+.comment-input {
+	width: 285px;
+	float: left;
+
+}
+
+.comment-input p {
+	margin-bottom: 10px;
+}
+
+.comment-input .input {
+	width: 80%;
+	height:30px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.comment-input button {
+	padding: 3px;
+	margin-left:5px;
+	border-radius:5px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: ivory;
+	background: olivedrab;
+	cursor: pointer;
+}
+
+.comments {
+	width: 570px;
+	float: right;
+
+}
+
+.comments p {
+
+	border-radius:  5px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+
+.comments p:nth-child(odd){
+	background: lavender;
+}
+
+.comments p:nth-child(even){
+	background: gainsboro;
+}
+
+footer {
+	clear:both;
+	font-size:smaller;
+	margin-top:5px;
+	
+
+}
