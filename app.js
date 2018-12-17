@@ -7,8 +7,9 @@ var main = function() {
 			 if($(".input").val() !== "") {
 
 			 	$new_comment = $("<p>").text($(".input").val());
-
+			 	$new_comment.hide();
 				$(".comments").append($new_comment);
+				$new_comment.fadeIn();
 				$(".input").val("");
 
 			}
@@ -23,8 +24,9 @@ $(".input").on("keypress", function(event){
 			 if($(".input").val() !== "") {
 
 			 	$new_comment = $("<p>").text($(".input").val());
-
+			 	$new_comment.hide();
 				$(".comments").append($new_comment);
+				$new_comment.fadeIn();
 				$(".input").val("");
 
 			}
